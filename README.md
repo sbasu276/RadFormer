@@ -30,4 +30,17 @@ bash run_train_cv.sh
 
 ### Finetuning on Custom Dataset
 1. Format the dataset as the GBCU.
-2. Use the `run_train.sh` scipt, and modify the arguments (`--img_dir`, `--train_list`, `--val_list`) corresponding to the dataset.
+2. Use the `run_train.sh` scipt, and modify the arguments (`--img_dir`, `--train_list`, `--val_list`) according to the dataset.
+
+### Citation
+```
+@article{basu2023radformer,
+  title={RadFormer: Transformers with global--local attention for interpretable and accurate Gallbladder Cancer detection},
+  author={Basu, Soumen and Gupta, Mayank and Rana, Pratyaksha and Gupta, Pankaj and Arora, Chetan},
+  journal={Medical Image Analysis},
+  volume={83},
+  pages={102676},
+  year={2023},
+  publisher={Elsevier}
+}
+```
