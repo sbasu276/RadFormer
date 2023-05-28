@@ -1,0 +1,4 @@
+__pycache__/
+model_weights/
+out_score
+data
